@@ -42,6 +42,36 @@ nav a.active {
   color: #ffcc00;
   border-bottom: 2px solid #ffcc00;
 }
+/* === Bio Styles === */
+.bio-section {
+  margin: 60px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.bio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.bio-text h2 {
+  font-size: 2rem;
+  color: #660033;
+  margin-bottom: 10px;
+}
+
+.bio-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.bio-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
 
 main {
   max-width: 1000px;
