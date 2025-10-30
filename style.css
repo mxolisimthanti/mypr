@@ -55,7 +55,9 @@ nav a.active {
   gap: 40px;
   align-items: center;
 }
-
+.bio-text {
+  text-align: left;
+}
 .bio-text h2 {
   font-size: 2rem;
   color: #660033;
@@ -67,7 +69,10 @@ nav a.active {
   line-height: 1.6;
   color: #333;
 }
-
+.bio-video {
+  display: flex;
+  justify-content: flex-end; /* Push video to the right */
+}
 .bio-video video {
   width: 240px;
   height: 240px;
