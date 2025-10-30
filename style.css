@@ -74,8 +74,8 @@ nav a.active {
   justify-content: flex-end; /* Push video to the right */
 }
 .bio-video video {
-  width: 240px;
-  height: 240px;
+  width: 390px;
+  height: 230px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
